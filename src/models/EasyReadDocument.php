@@ -32,19 +32,6 @@ class EasyReadDocument extends DataObject
         'CoverImage.CMSThumbnail' => 'CoverImage',
     ];
 
-    public function getCMSFields()
-    {
-        $folder = "/Images/EasyRead/Cover";
-        $fields = FieldList::create(
-            $easyReadTitle = TextField::create("Title", "Easy Read title"),
-            $coverImage = UploadField::create("CoverImage", "Cover image")
-                ->setAllowedMaxFileNumber(1)
-                ->setAllowedFileCategories("image")
-                ->setFolderName($folder),
-        );
-        return $fields;
-    }
-
     public static function lineTypeMap()
     {
         $lineTypes = [];

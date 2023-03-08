@@ -24,7 +24,7 @@ class EasyReadSettingsExtension extends DataExtension
     public function updateCMSFields(FieldList $fields)
     {
         $fields->addFieldsToTab('Root.EasyRead', [
-            $easyReadTitle = LiteralField::create("SettingsHeading", "Easy Read settings"),
+            $easyReadTitle = LiteralField::create("SettingsHeading", "<h2>Easy Read settings</h2>"),
         ]);
 
     }

@@ -1,6 +1,8 @@
 # SilverStripe Easy Read
 A simple SilverStripe module to create and display html Easy Read content.
 
+**CURRENTLY IN DEVELOPMENT**
+
 ## Installation
 
 Require the Easy Read package.
