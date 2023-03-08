@@ -1,0 +1,11 @@
+---
+Name: silverstripe-easyread
+---
+
+Page:
+  extensions:
+    - Earthwytch\SilverStripeEasyRead\EasyReadExtension
+
+Silverstripe\SiteConfig\SiteConfig:
+  extensions:
+    - Earthwytch\SilverStripeEasyRead\EasyReadSettingsExtension
