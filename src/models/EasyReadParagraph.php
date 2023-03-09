@@ -6,7 +6,7 @@ use SilverStripe\Security\Permission;
 
 class EasyReadParagraph extends EasyReadLine
 {
-    private static $table_name = 'EasyReadHeading';
+    private static $table_name = 'EasyReadParagraph';
     private static $line_type = 'Paragraph';
 
     public function canView($member = null)

@@ -10,8 +10,17 @@
 	"require": {
 		"silverstripe/cms": "^4.0",
 		"silverstripe/framework": "^4.0",
+<<<<<<< HEAD
 		"undefinedoffset/sortablegridfield": "^2.1"
 	},
+=======
+        "silverstripe/admin": "^1.0",
+		"undefinedoffset/sortablegridfield": "^2.1"
+	},
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+>>>>>>> 0e2e4d7... Adding tests and package requirements
 	"autoload": {
 		"psr-4": {
 			"Earthwytch\\EasyRead\\": "src/"
