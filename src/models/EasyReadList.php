@@ -4,10 +4,17 @@ namespace Earthwytch\SilverStripeEasyRead;
 
 use SilverStripe\Security\Permission;
 
+<<<<<<< HEAD
 class EasyReadDefinition extends EasyReadLine
 {
     private static $table_name = 'EasyReadHeading';
     private static $line_type = 'Paragraph';
+=======
+class EasyReadList extends EasyReadLine
+{
+    private static $table_name = 'EasyReadList';
+    private static $line_type = 'List';
+>>>>>>> 0e2e4d7... Adding tests and package requirements
 
     public function canView($member = null)
     {
