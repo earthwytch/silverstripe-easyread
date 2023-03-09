@@ -40,18 +40,12 @@ If the issue looks like a new bug:
  and screencasts can help here.
  - Describe your environment as detailed as possible: SilverStripe version, Browser, PHP version, 
  Operating System, any installed SilverStripe modules.
-<<<<<<< HEAD
- 
-=======
 
 ## Security issues 
->>>>>>> 0e2e4d7... Adding tests and package requirements
 Please don't file security issues in the bugtracker. Report security issues to the module maintainers directly. 
  
 ## Development and contribution
 If you would like to make contributions to the module please ensure you raise a pull request and discuss with the module maintainers.
-<<<<<<< HEAD
-=======
 
 Please review the [code of conduct](./code-of-conduct.md) prior to completing a pull request.
->>>>>>> 0e2e4d7... Adding tests and package requirements
+
