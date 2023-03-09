@@ -4,7 +4,7 @@ namespace Earthwytch\SilverStripeEasyRead;
 
 use SilverStripe\Security\Permission;
 
-class EasyReadDefinition extends EasyReadLine
+class EasyReadList extends EasyReadLine
 {
     private static $table_name = 'EasyReadList';
     private static $line_type = 'List';
